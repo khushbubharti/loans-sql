@@ -112,37 +112,3 @@ Cust_Name ends with 'Sharma'.*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
---use LOANS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*36.*/
---SELECT cust_name, LENGTH(Cust_Name), LCASE(Cust_Name), UCASE(Cust_Name)
---FROM Loan_Accounts WHERE Int_Rate < 11.00;
-
-
-
