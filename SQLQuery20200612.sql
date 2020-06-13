@@ -222,4 +222,25 @@ than 400000.*/
 --SELECT TRUNCATE(543.5694,2), TRUNCATE(543.5694,-1);
 
 
+/*44. */
+ --SELECT LEN('Prof. M. L. Sharma') ;
+
+
+ /*45. */
+ --SELECT CONCAT('SHEIKH', ' HAROON') 'FULL NAME' ;
+
+
+ /*46. */
+  --SELECT GETDATE()
+  
+  
+ /*47. */
+--SELECT 
+----DATENAME(YEAR, GETDATE()), 
+----DATENAME(MONTH,GETDATE ()),
+----DATENAME(DAY,GETDATE());
+
+
+
+
 
